@@ -1,0 +1,110 @@
+body {
+    font-size: 13px;
+    color: #263238;
+    background: #2f3138 !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.auth-wrapper {
+    max-width: 450px;
+    margin: 0px auto;
+    margin-top: 1.9rem;
+    min-height: 400px;
+}
+
+.form-group label {
+    padding-bottom: 5px;
+}
+
+.has-feedback label~.form-control-feedback {
+    top: 32px !important;
+}
+
+.auth-wrapper .auth-header,
+.auth-wrapper .auth-user {
+    padding: 50px 50px 30px 50px;
+    text-align: right;
+    position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: #263238;
+    background-position: center;
+    /* background-image: url(https://masterkadal.com/spp/assets/images/chocolate.jpg);  117, 19, 93  245, 246, 252*/
+   
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    -ms-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    -o-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+}
+
+.auth-wrapper .auth-header .auth-title,
+.auth-wrapper .auth-user .auth-title {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 70px;
+}
+
+.auth-wrapper .auth-header .auth-subtitle,
+.auth-wrapper .auth-user .auth-subtitle {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.auth-wrapper .auth-header .auth-label,
+.auth-wrapper .auth-user .auth-label {
+    padding: 5px 15px;
+    font-size: 12px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.auth-wrapper .auth-body {
+    background: #fff;
+    margin-top: 20px;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    -ms-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    -o-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03);
+}
+
+.auth-wrapper .auth-body .auth-content {
+    padding: 30px 50px 30px 50px;
+}
+
+.auth-wrapper .auth-body .auth-footer {
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 1px solid #EBEBEB;
+    padding: 30px 50px 30px 50px;
+    overflow: hidden;
+}
+
+.auth-wrapper .auth-body .auth-footer .auth-link {
+    margin-top: 7px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0275d8 !important;
+    border-color: #0275d8 !important;
+}
